@@ -77,7 +77,8 @@ let requiredModules = [ // services + layout views + system views
   'doc-viewer',
   'doc-gen',
   'remix-templates',
-  'solhint'
+  'solhint',
+  'statusBar'
 ]
 
 
@@ -102,7 +103,7 @@ const isVM = (name) => {
 }
 
 export function isNative(name) {
-  
+
   // nativePlugin allows to bypass the permission request
   const nativePlugins = [
     'vyper',
@@ -116,6 +117,7 @@ export function isNative(name) {
     'solhint',
     'solidityUnitTesting',
     'layout',
+    'statusBar',
     'notification',
     'hardhat-provider',
     'ganache-provider',

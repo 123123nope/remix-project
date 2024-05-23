@@ -31,6 +31,7 @@ let requiredModules = [ // services + layout views + system views
   'menuicons',
   'filePanel',
   'terminal',
+  'statusBar',
   'settings',
   'pluginManager',
   'tabs',
@@ -77,8 +78,7 @@ let requiredModules = [ // services + layout views + system views
   'doc-viewer',
   'doc-gen',
   'remix-templates',
-  'solhint',
-  'statusBar'
+  'solhint'
 ]
 
 
